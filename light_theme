@@ -8,7 +8,7 @@ echo -en "\e]P3b58900" #brown
 echo -en "\e]P4268bd2" #darkblue
 echo -en "\e]P56c71c4" #darkmagenta
 echo -en "\e]P62aa198" #darkcyan
-echo -en "\e]P7101010" #lightgray
+echo -en "\e]P7101010" #lightgray(foreground)
 echo -en "\e]P8657b83" #darkgray
 echo -en "\e]P9dc322f" #red
 echo -en "\e]PA859900" #green
@@ -16,5 +16,5 @@ echo -en "\e]PBb58900" #yellow
 echo -en "\e]PC268bd2" #blue
 echo -en "\e]PD6c71c4" #magenta
 echo -en "\e]PE2aa198" #cyan
-echo -en "\e]PFfdf6e3" #white(foreground ?)
+echo -en "\e]PFfdf6e3" #white
 clear #get rid of artifacts
