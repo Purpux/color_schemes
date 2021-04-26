@@ -1,20 +1,21 @@
 #!/bin/bash
 
-echo "\e]P02a2331" #black
-echo "\e]P1E83F80" #darkred
-echo "\e]P2A2BAA8" #darkgreen
-echo "\e]P3EACAC0" #darkyellow
-echo "\e]P49985D1" #darkblue
-echo "\e]P5E68AC1" #darkmagenta
-echo "\e]P6AABAE7" #darkcyan
-echo "\e]P74e3e5e" #gray
-echo "\e]P8302838" #darkgray
-echo "\e]P9F55D8F" #red
-echo "\e]PABFD1C3" #green
-echo "\e]PBF0DDD8" #yellow
-echo "\e]PCB4A4DE" #blue
-echo "\e]PDEDABD2" #magenta
-echo "\e]PEC4D1F5" #cyan
-echo "\e]PFDEDBEB" #white
-#echo "\e]P?231d29" #darkblack
+echo -en "\e]P02a2331" #black(background)
+echo -en "\e]P1E83F80" #darkred
+echo -en "\e]P2A2BAA8" #darkgreen
+echo -en "\e]P3EACAC0" #darkyellow
+echo -en "\e]P49985D1" #darkblue
+echo -en "\e]P5E68AC1" #darkmagenta
+echo -en "\e]P6AABAE7" #darkcyan
+echo -en "\e]P7DEDBEB" #white (fore ground ?)
+echo -en "\e]P8302838" #darkgray
+echo -en "\e]P9F55D8F" #red
+echo -en "\e]PABFD1C3" #green
+echo -en "\e]PBF0DDD8" #yellow
+echo -en "\e]PCB4A4DE" #blue
+echo -en "\e]PDEDABD2" #magenta
+echo -en "\e]PEC4D1F5" #cyan
+echo -en "\e]PF4e3e5e" #gray (was not foreground)
+#i swapped the gray and white because by default my console was using \e]P7 for the foreground instead of \e]PF
+#echo "\e]P?231d29" #darkblack I dont know what darkblack is in the 16 color scheme, so it was excluded
 clear #gets rid of artifacts
