@@ -1,4 +1,5 @@
 #!/bin/bash
+# credit to u/owozsh on reddit for the colorscheme
 
 echo -en "\e]P02a2331" #black(background)
 echo -en "\e]P1E83F80" #darkred
@@ -16,6 +17,7 @@ echo -en "\e]PCB4A4DE" #blue
 echo -en "\e]PDEDABD2" #magenta
 echo -en "\e]PEC4D1F5" #cyan
 echo -en "\e]PF4e3e5e" #gray (was not foreground)
+clear #gets rid of artifacts
+
 #i swapped the gray and white because by default my console was using \e]P7 for the foreground instead of \e]PF
 #echo "\e]P?231d29" #darkblack I dont know what darkblack is in the 16 color scheme, so it was excluded
-clear #gets rid of artifacts
