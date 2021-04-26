@@ -1,7 +1,7 @@
 #!/bin/bash
 # work in progress, dont make fun of me
 
-echo -en "\e]P0FFFFFF" #black(background)
+echo -en "\e]P0ffffff" #black(background)
 echo -en "\e]P1dc322f" #darkred
 echo -en "\e]P2859900" #darkgreen
 echo -en "\e]P3b58900" #brown
@@ -13,8 +13,8 @@ echo -en "\e]P8657b83" #darkgray
 echo -en "\e]P9dc322f" #red
 echo -en "\e]PA859900" #green
 echo -en "\e]PBb58900" #yellow
-echo -en "\e]PC268bd2" #blue
-echo -en "\e]PD6c71c4" #magenta
+echo -en "\e]PC535fed" #blue
+echo -en "\e]PD5c0096" #magenta
 echo -en "\e]PE2aa198" #cyan
 echo -en "\e]PFfdf6e3" #white
 clear #get rid of artifacts
