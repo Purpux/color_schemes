@@ -1,23 +1,27 @@
 #!/bin/bash
 # credit to u/owozsh on reddit for the colorscheme
 
-echo -en "\e]P02a2331" #black(background)
+echo -en "\e]P01b1421" #black(background)(changed)
 echo -en "\e]P1E83F80" #darkred
-echo -en "\e]P2A2BAA8" #darkgreen
+echo -en "\e]P215bf56" #darkgreen (changed)
 echo -en "\e]P3EACAC0" #darkyellow
 echo -en "\e]P49985D1" #darkblue
 echo -en "\e]P5E68AC1" #darkmagenta
 echo -en "\e]P6AABAE7" #darkcyan
-echo -en "\e]P7DEDBEB" #white (fore ground ?)
+echo -en "\e]P7b6b3c6" #white (foreground, is actually lightgray for console)(changed)
+
+#dark colors
 echo -en "\e]P8302838" #darkgray
 echo -en "\e]P9F55D8F" #red
-echo -en "\e]PABFD1C3" #green
+echo -en "\e]PA15bf56" #green (changed)
 echo -en "\e]PBF0DDD8" #yellow
 echo -en "\e]PCB4A4DE" #blue
 echo -en "\e]PDEDABD2" #magenta
 echo -en "\e]PEC4D1F5" #cyan
-echo -en "\e]PF4e3e5e" #gray (was not foreground)
+echo -en "\e]PFb6b3c6" #white (changed)
 clear #gets rid of artifacts
 
-#i swapped the gray and white because by default my console was using \e]P7 for the foreground instead of \e]PF
-#echo "\e]P?231d29" #darkblack I dont know what darkblack is in the 16 color scheme, so it was excluded
+#changed white to #b6b3c6. both color F and 7 are foreground so I had to change them both
+#changed green and dark green to #15bf56
+#changed background (black) to #1b1421
+#maybe change yellow next to more resemble green, but I dont really care about that
