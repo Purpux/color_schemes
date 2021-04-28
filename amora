@@ -10,7 +10,7 @@ echo -en "\e]P5E68AC1" #darkmagenta
 echo -en "\e]P6AABAE7" #darkcyan
 echo -en "\e]P7b6b3c6" #white (foreground, is actually lightgray for console)(changed)
 
-#dark colors
+#light/bold colors
 echo -en "\e]P8302838" #darkgray
 echo -en "\e]P9F55D8F" #red
 echo -en "\e]PA15bf56" #green (changed)
