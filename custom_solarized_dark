@@ -1,0 +1,20 @@
+#!/bin/bash
+echo -en "\e]P0000000" #black
+echo -en "\e]P1dc322f" #darkred
+echo -en "\e]P2859900" #darkgreen
+echo -en "\e]P3b58900" #brown
+echo -en "\e]P4268bd2" #darkblue
+echo -en "\e]P56c71c4" #darkmagenta
+echo -en "\e]P62aa198" #darkcyan
+echo -en "\e]P793a1a1" #lightgray
+
+#light colors
+echo -en "\e]P8657b83" #darkgray
+echo -en "\e]P9dc322f" #red
+echo -en "\e]PA859900" #green
+echo -en "\e]PBb58900" #yellow
+echo -en "\e]PC268bd2" #blue
+echo -en "\e]PD6c71c4" #magenta
+echo -en "\e]PE2aa198" #cyan
+echo -en "\e]PFfdf6e3" #while
+clear #get rid of artifacts
