@@ -1,20 +1,22 @@
 #!/bin/bash
 # work in progress, dont make fun of me
 
-echo -en "\e]P0ffffff" #black(background)
+echo -en "\e]P0d3d3d3" #black(background)
 echo -en "\e]P1dc322f" #darkred
-echo -en "\e]P2859900" #darkgreen
+echo -en "\e]P2008e26" #darkgreen
 echo -en "\e]P3b58900" #brown
 echo -en "\e]P4268bd2" #darkblue
-echo -en "\e]P56c71c4" #darkmagenta
+echo -en "\e]P5ff00ff" #darkmagenta
 echo -en "\e]P62aa198" #darkcyan
-echo -en "\e]P7101010" #lightgray(foreground)
+echo -en "\e]P7444444" #lightgray(foreground)
+
+#light color
 echo -en "\e]P8657b83" #darkgray
 echo -en "\e]P9dc322f" #red
-echo -en "\e]PA859900" #green
+echo -en "\e]PA019629" #green
 echo -en "\e]PBb58900" #yellow
 echo -en "\e]PC535fed" #blue
-echo -en "\e]PD5c0096" #magenta
+echo -en "\e]PDff00ff" #magenta
 echo -en "\e]PE2aa198" #cyan
 echo -en "\e]PFfdf6e3" #white
 clear #get rid of artifacts
