@@ -1,0 +1,22 @@
+#!/bin/bash
+
+# dark colors
+echo -e "\e]P0181818" #black
+echo -e "\e]P1fc5b53" #red
+echo -e "\e]P2379a37" #green
+echo -e "\e]P3bb8a35" #yellow
+echo -e "\e]P4516aec" #blue
+echo -e "\e]P57b59c0" #magenta
+echo -e "\e]P6159393" #cyan
+echo -e "\e]P7ab9bab" #white
+
+# bright colors
+echo -e "\e]P8776977" #dark_black     
+echo -e "\e]P9fc5b53" #bright_red
+echo -e "\e]PA379a37" #bright_green
+echo -e "\e]PBbb8a35" #bright_yellow
+echo -e "\e]PC516aec" #bright_blue
+echo -e "\e]PD7b59c0" #bright_magenta
+echo -e "\e]PE159393" #bright_cyan
+echo -e "\e]PFf7f3f7" #bright_white
+clear
